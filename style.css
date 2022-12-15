@@ -290,6 +290,8 @@ overflow: hidden;
 }
 .social-icons{
     margin-top: 30px;
+   width: 50px;
+   height: 50px;
 }
 .social-icons a{
     text-decoration: none;
@@ -298,6 +300,7 @@ overflow: hidden;
     color: darkolivegreen;
     display: inline-block;
     transition: transform 0.5s;
+
 }
 .social-icons a:hover{
     color: brown;
@@ -348,7 +351,7 @@ nav.fas{
 }
 @media only screen and (max-width:600px) {
     #header{
-        background-image:url() ;
+        background-image:url(images/zero1.jpg) ;
       }
       .header-text{
         margin-top: 100%;
